@@ -1,0 +1,11 @@
+[package]
+name = "rbu-test-repo"
+version = "0.1.0"
+authors = ["antoinewdg <antoinewendlinger@gmail.com>"]
+
+[dev-dependencies]
+bencher = "0.1.2"
+
+[[bench]]
+name = "array_sum"
+harness = false
