@@ -1,7 +1,7 @@
 /// Sums two slices
 pub fn sum_arrays(a: &[i32], b: &[i32], out: &mut [i32]) {
     for (o, (x, y)) in out.iter_mut().zip(a.iter().zip(b.iter())) {
-        *o = *x + *y;
+        *o =
     }
 }
 
